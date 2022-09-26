@@ -26,7 +26,7 @@ Su enrutamiento y funciones están desarrollado en Jss (JavaScript)
 
 En la etiqueta <body> está todo el cuerpo del documento html, y si se observa el código se puede ver el uso 
 de diferentes tag del tipo block e inline, ejemplo: p - h1 - h2 - h3 - h4 - div - span - a - button - 
-em - strong" - etc.
+em - strong - etc.
 
 En la etiqueta >footer> podemos apreciar el pie de página de todos los documentos, el cual tiene las redes del 
 restaurante y los derechos de autor.
