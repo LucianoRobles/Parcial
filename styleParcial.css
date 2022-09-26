@@ -1,0 +1,173 @@
+/*Clases del Generales*/
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+
+}
+h2,h3{
+    text-align: center;
+}
+
+    /*"FOOTER"*/
+
+    footer{
+        width: 90%;
+        text-align: center;
+        background: gray;
+        border-radius: 16px;
+        position: fixed;
+        bottom: 0;
+        margin-bottom:1%;
+    }
+
+    .footerImagen{
+        width: 5%;
+        border-radius: 16px;
+        vertical-align: middle;
+    }
+
+    .footerForm{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 0px;
+        border: dashed black 2px;
+    }
+
+            /*HEADER"*/
+
+        header{
+            width: 90%;
+            visibility: visible;
+            position: fixed;
+            top: 0;
+            margin-top: 1%; 
+        }
+
+        .headerBotones{
+            width: 22%;
+            padding: 1px;
+        }
+
+        .botonHoverBlack :hover{
+            text-transform: uppercase;
+            text-shadow:2px 2px 2px black;    
+        }
+
+            /*Clases del archivo "contacto"*/
+
+            .contactoBody{
+                margin: 2%;
+                padding: 2%;
+                text-align: center;
+                border-left: solid 4px black;
+                border-radius: 32px;
+                background: whitesmoke;
+            }
+            .imagenContacto{
+                background-color: white;
+                border-radius: 32px ;
+            }
+
+            .imagenContacto > img{
+                width: 32%;
+                height: 5%;
+                border: 0px;
+                padding: 4px;
+                margin: 0px;
+                background-color: white;
+                
+            }
+
+            .imagenContacto02 img{
+                width: 25%;
+                height: 25%;
+            }
+
+                /*Clases del archivo "detalle"*/
+
+                .detalleBody{
+                    margin: 2%;
+                    padding: 2%;
+                    text-align: justify;
+                    border-left: solid 4px;
+                    border-radius: 32px;
+                    background: whitesmoke;
+                }
+                
+                .detalleH4 * h4{
+                    text-align: center;
+                    background-color: rgb(234, 237, 237);
+                    color: grey;
+                    margin-left: 30%;
+                    margin-right: 30%;
+                }
+                
+                .espacioListaDetalle > li{
+                margin:1% 10% 1% 10%;
+                text-transform: uppercase;
+                background: white;
+                z-index: -1;
+                color: black;
+                
+                }
+                
+                .espacioListaDetalle02 > li{
+                    margin:1% 10% 1% 10%;
+                    text-transform: uppercase;
+                    text-shadow: 8px 8px 8px black;
+                }
+                
+                .detalleP{
+                    margin-left: 10%;
+                    margin-right:10%;
+                }
+
+                    /*Clases del archivo "formulario_reserva"*/
+
+                    .formBody{
+                        margin: 5%;
+                        padding: 2%;
+                        text-align:left;
+                        border: solid 4px  ;
+                        border-radius: 32px;
+                        background: whitesmoke;
+                        font-size: medium;
+
+                    }
+
+                    .formLetras label{
+                        padding-left:16px ;
+                        text-indent: 1px;
+                        padding-bottom: 8px ;
+                        
+                    }
+
+                            /*Clases del archivo "index"*/
+
+                        .indexBody{
+                                margin: 2%;
+                                padding: 2%;
+                                text-align: center;
+                                border-left: solid 4px white;
+                                border-radius: 32px;
+                                background: black;
+                                color: white;
+                        }
+
+                        .imagenIndex{
+                                width: 80%;
+                                height: 80%;
+                        }
+                            
+                        /*Clases del archivo "menu"*/
+
+                        .espacioBotones{
+                            margin: 4px;
+                        }
+
+                        .botonHover :hover{
+                            text-transform: uppercase;
+                            
+                        }

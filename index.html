@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Autor" content="Luciano Robles">
+    <meta name="Pagina principal" content="Este documento contiene la pagina principal de la WebApp para el restaurante " >
+    <link rel="stylesheet" href="styleParcial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="parcial.js"></script>
+    <title>Pantalla incial</title>
+</head>
+<body id="bodyIndex" class = "indexBody">
+    <header>
+        <div class="row botonHover">
+            <div class="col-sm-3 headerBotones">
+                <label> Modo de vista: <br>
+                Claro <input  onclick="changeViewWhite('bodyIndex')" type="radio" name= "tema" value="claro">                
+                Oscuro <input  onclick="changeViewDark('bodyIndex')" type="radio" name= "tema" value="oscuro" >
+                </label>  
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <button class="btn btn-default" onclick= "irA('menu.html')">Menú Principal 📖
+                </button>                  
+            </div>
+            <div class="col-sm-3 headerBotones">
+                    <button class="btn btn-default" onclick= "irA('contacto.html')">Mas Información 📱
+                    </button>
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <button class="btn btn-default" onclick= "irA('formulario_reserva.html')" >Hacer Reserva 📄
+                </button>
+            </div>
+        </div>
+    </header>
+    <div>
+        <h1>Bienvenido al restaurante <strong> "Los Hermanos"</strong></h1> 
+        <h3>Somos un restaurante con mas de 15 años de experiencien sirviendo a gente de todo el mundo. <br>Nos caracteriza <strong><em>los mejores ingredientes y los mejores platos. </em></strong></h2>
+        <div>
+            <a href="menu.html">
+        <h1>Ingresa a nuestro menu principal 
+            <img class="imagenIndex img-thumbnail"  src="Imagenes/paul-griffin-WWST6E8LxeE-unsplash.jpg" alt="Ingresar al menu">
+        </h1>
+        </a>
+        </div>  
+    </div>
+
+    <footer>
+        <div>         
+            <a id="linkFacebook" href="https://www.facebook.com/" target="_blank"><img class="footerImagen"src="Imagenes/alex-haney-AGqzy-Uj3s4-unsplash.jpg" alt="Facebook"></a>
+            <a id= "linkFacebook" href="https://www.instagram.com/" target="_blank"><img class="footerImagen" src="Imagenes/947fd-logo-instagram-bonito-png.webp" alt="Instagram"> </a>
+            <kbd>®Los Hermanos S.A. | Designer: LuchitoX</kbd>
+        </div>
+    </footer>   
+</body>
+</html>

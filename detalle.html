@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Autor" content="Luciano Robles">
+    <meta name="Menu Principal" content="Este documento contiene el menu principal de la WebApp para el restaurante " >
+    <link rel="stylesheet" href="styleParcial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="parcial.js"></script>
+    <title>Carta Digital</title>
+</head>
+
+<body id="bodyDetalle" class="detalleBody detalleH4">
+    <header>
+        <div class="row botonHoverBlack">
+            <div class="col-sm-3 headerBotones">
+                <label> Modo de vista: <br>
+                Claro <input onclick="changeViewWhite('bodyDetalle')" type="radio" name= "tema" value="claro">                
+                Oscuro <input onclick="changeViewDark('bodyDetalle')" type="radio" name= "tema" value="oscuro" >
+                </label>  
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <a href="index.html">
+                    <button class="btn btn-info">Home 🏡
+                    </button>
+                </a>                   
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <a href="menu.html">
+                    <button class="btn btn-info">Menu Principal
+                    </button>
+                </a>
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <a href="formulario_reserva.html" target="_blank">
+                    <button class="btn btn-info">Hacer Reserva 📄
+                    </button>
+                </a>
+            </div>            
+        </div>
+    </header>
+    <h1> Bienvenido a la carta digital<strong> "Los Hermanos"</strong> </h1>
+    <div>
+        <h2 id="seccion_comida"><em>Sección de Comidas</em></h2>
+        <div>
+            <h4><strong>Menú Infantil:</strong> <mark>Precio: $650 </mark></h4>
+            <p class="detalleP">El mismo esta compuesto por pollo con papas y arroz integral, pan de papa y vedurillas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam, deserunt reprehenderit, aliquam excepturi laboriosam necessitatibus dolore perspiciatis quod hic possimus assumenda, eos ut nesciunt laborum saepe accusantium eius minus.</p>
+        </div>   
+        <div>
+            <h4><strong>Menú ejecutivo:</strong> <mark>Precio: $850</mark></h4>
+            <p class="detalleP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat molestiae quos magnam suscipit asperiores velit nostrum perferendis unde accusantium modi voluptates alias quis quisquam ut mollitia, ea nemo aliquam?</p>
+        </div>
+        <div>
+        <h4><strong>Empanadas Fritas:</strong> <mark>Precio: $550 c/u </mark></h4>
+            <ul class="espacioListaDetalle02"> 
+                <li>Carne</li>
+                <li>Jamon y Queso</li>
+                <li>Carne y Papas</li>
+                <li>Chusrrasco y Zanahoria</li>
+                <li>Pancito y Panceta</li>
+                <li>Banana y Fideos</li>
+                <li>Bondiola y Salsa Barbacoa</li>
+            </ul>
+        </div>
+        <div>
+            <h4><strong>Empanadas al Horno:</strong> <mark>$450 c/u</mark></h4>
+            <ul class="espacioListaDetalle02">
+                <li>Carne</li>
+                <li>Jamon y Queso</li>
+                <li>Carne y Papas</li>
+                <li>Chusrrasco y Zanahoria</li>
+                <li>Pancito y Panceta</li>
+                <li>Banana y Fideos</li>
+                <li>Bondiola y Salsa Barbacoa</li>
+            </ul>
+        </div>
+        <div>
+            <h4><strong>Pizzas al Piedra:</strong> <mark>Precios: Chica $1000 | Grande $2000</mark></h4>
+            <ul class="espacioListaDetalle02">
+                <li>Muzzarella y jamon</li>
+                <li>Muzarella, Banana y Fideos</li>
+                <li>Muzzarella y jamon</li>
+                <li>Muzzarella y jamon</li>
+                <li>Muzarella, Banana y Fideos</li>
+                <li>Muzarella, Bondiola y Salsa Barbacoa</li>
+                <li>Queso de cabra, Arroz con leche y Panceta</li>
+                <li>Queso de cabra, Cactus asado y Panceta</li>
+                <li>Queso de cabra, Limon al agua y Cebolla</li>
+            </ul>
+        </div>
+        <div>
+        <h4><strong>Pizzas al Horno de Barro:</strong> <mark>Chica $1000 | Grande $2000</mark></h4>
+        <ul class="espacioListaDetalle02">
+            <li>Muzzarella y jamon</li>
+            <li>Muzarella Banana y Fideos</li>
+            <li>Muzzarella y jamon</li>
+            <li>Muzzarella y jamon</li>
+            <li>Muzarella Banana y Fideos</li>
+            <li>Muzarella Bondiola y Salsa Barbacoa</li>
+            <li>Queso de cabra, Arroz con leche y Panceta</li>
+            <li>Queso de cabra, Cactus asado y Panceta</li>
+            <li>Queso de cabra, Limon al agua y Cebolla</li>
+        </ul>
+        </div>
+        <div >
+        <h4><strong>Nuestra Parrila:</strong> <mark>Precios: 2 o 4 Personas - $1500 | $2800</mark></h4>
+        <ul class="espacioListaDetalle02">
+            <li>Morcilla - $300</li>
+            <li>Chorizo Mezcla - $350</li>
+            <li>Chorizo de Cerdo - $350</li>
+            <li>Tira de asado - $500</li>
+            <li>Vacio - $400</li>
+            <li>Lechon - $900</li>
+            <li>Bondiola - $600</li>
+        <ul>
+        </div>
+    </div>
+    
+    <div id ="seccion_bebida">
+        <h2><em>Sección de Bebidas</em></h2>
+        <div>
+            <h4>Bebidas sin alcohol</h4>
+            <ul class="list-group  espacioListaDetalle ">
+                <li class="list-group-item">Agua de Glaciar <span class="badge">$300</span></li>
+                <li class="list-group-item">Agua de Grifo <span class="badge">$200</span></li>
+                <li class="list-group-item">Agua con Gas<span class="badge">$300</span></li>
+                <li class="list-group-item">Coca-Cola<span class="badge">$500</span></li>
+                <li class="list-group-item">Fanta-Clasica<span class="badge">$500</span></li>
+                <li class="list-group-item">Paso de los Toros<span class="badge">$500</span></li>
+                <li class="list-group-item">Sprite<span class="badge">$500</span></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h4>Bebidas con alcohol</h4>
+            <ul class="list-group  espacioListaDetalle">
+                <li class="list-group-item">Fernet<span class="badge">$1400</span></li>
+                <li class="list-group-item">Gancia<span class="badge">$1200</span></li>
+                <li class="list-group-item">Vino Tinto<span class="badge">$700</span></li>
+                <li class="list-group-item">Vino Blanco <span class="badge">$800</span></li>
+                <li class="list-group-item">Vino Espumante <span class="badge">$900</span></li>                                
+            </ul>
+        </div>
+        <div>
+            <h4>Tragos</h4>
+            <ul class="list-group  espacioListaDetalle">
+                <li class="list-group-item">Fernet con Coca<span class="badge">$500</span></li>
+                <li class="list-group-item">Gancia con limon<span class="badge">$500</span></li>
+                <li class="list-group-item">Gancia con crema<span class="badge">$500</span></li>
+                <li class="list-group-item">Vaso de Tino<span class="badge">$300</span></li>
+                <li class="list-group-item">Vaso de Blanco<span class="badge">$200</span></li>
+                <li class="list-group-item">Vodka con Speed<span class="badge">$400</span></li>                                
+            </ul>
+        </div>        
+    </div>
+    <div>
+        <h2 id="seccion_postres"><em>Sección de Postres</em></h2>
+        <div>
+            <h4>Helado - <mark>Precios: Dos Bochas $600</mark></h4>
+            <ul class="list-group espacioListaDetalle">
+                <li class="list-group-item">Dulce de leche</li>
+                <li class="list-group-item">Banana Split</li>
+                <li class="list-group-item">Pistacho</li>
+                <li class="list-group-item">Sambayón</li>
+                <li class="list-group-item">Frutilla al agua</li>
+                <li class="list-group-item">Crema americana</li>
+                <li class="list-group-item">Chocolate amargo</li>   
+            </ul>
+        </div>
+        
+        <div>
+            <h4>Postres Clasicos</h4>
+            <ul class="list-group espacioListaDetalle">
+                <li class="list-group-item">Charlotte<span class="badge">$900</span></li>
+                <li class="list-group-item">Flan<span class="badge">$800</span></li>
+                <li class="list-group-item">Vigilante<span class="badge">$400</span></li>                           
+            </ul>
+        </div>  
+    </div>
+    <footer>
+        <div>         
+            <a id="linkFacebook" href="https://www.facebook.com/" target="_blank"><img class="footerImagen"src="Imagenes/alex-haney-AGqzy-Uj3s4-unsplash.jpg" alt="Facebook"></a>
+            <a id= "linkFacebook" href="https://www.instagram.com/" ><img class="footerImagen" src="Imagenes/947fd-logo-instagram-bonito-png.webp" alt="Instagram"> </a>
+            <kbd>®Los Hermanos S.A. | Designer: LuchitoX</kbd>
+        </div>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Autor" content="Luciano Robles">
+    <meta name="Menu Contacto" content="Este documento contiene el menu de contacto de la WebApp para el restaurante " >
+    <link rel="stylesheet" href="styleParcial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="parcial.js"></script>
+    <title>Menu de contacto</title>
+
+<body id = "bodyContacto" class="contactoBody">
+    <header>
+        <div class="row botonHoverBlack">
+            <div class="col-sm-3 headerBotones">
+                <label  > Modo de vista: <br>
+                Claro <input onclick="changeViewWhite('bodyContacto')" type="radio" name= "tema" value="claro">                
+                Oscuro <input onclick="changeViewDark('bodyContacto')" type="radio" name= "tema" value="oscuro" >
+                </label>  
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <button class="btn btn-info" onclick="irA('index.html')">Home 💒
+                </button>                         
+            </div>
+            <div class="col-sm-3 headerBotones">
+                    <button class="btn btn-info"  onclick="irA('menu.html')">Menú Principal 📖
+                    </button>
+            </div>
+            <div class="col-sm-3 headerBotones">
+                    <button class="btn btn-info"  onclick="irA('formulario_reserva.html')">Hacer Reserva 📃
+                    </button>
+            </div>            
+        </div>
+    </header>
+    <div>
+        <h1>Menu de contacto</h1> 
+    </div>
+    <div class = "imagenContacto">
+        <img class ="img-circle" src="imagenes/igor-rand-wfM1Fi-kMaY-unsplash.jpg" alt="">
+        <img class ="img-circle" src="imagenes/albert-YYZU0Lo1uXE-unsplash.jpg" alt="">
+        <img class ="img-circle" src="imagenes/nick-karvounis-Ciqxn7FE4vE-grande.jpg" alt="">
+    </div>
+    <div>
+        <h1>Contacto</h1>
+        <div class="row">
+            <div class="col-sm-4 "><iframe class="img-thumbnail"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.059320902864!2d-58.635020884387394!3d-34.62794118045331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8c7bd0751e3%3A0x9c5c1384e90b2f96!2sEsteban%20Bonorino%20299%2C%20Villa%20Tesei%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1664078572636!5m2!1ses-419!2sar" width=30% height=20% style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="col-sm-4 "><br>
+                Telefono de contacto: 011 - 4578-9865 | (+54) 11-4578-9865<br>
+                Mail de contacto:<a href="mailto:restaurante@hotmail.com?cc=soylucho@hotmail.es;&bcc=soylucho@hotmail.es&subject=Cliente x con asunto y&body=Hola cliente nuevo se detallado en tu mail. Gracias">
+                restaurante@hotmail.com</a> <br>
+                Direccion : Bonorino 299 - Hurlingham
+                Horarios : Lunes a Domingo - 09 a.m a 23 p.m
+            </div>
+            <div class="col-sm-4 imagenContacto02">
+                <p><kbd>Link de "PedidosYa"</kbd></p>  <a href="https://www.pedidosya.com.ar/?sem_tracker=740125327&pycat=googlesearch&cmp=&ag=pedidosya%20%20%28e%29&kwd=pedidosya&mt=e&net=g&dev=c&sitelink=&gclid=CjwKCAjwm8WZBhBUEiwA178UnDqIHC_ycVTKxFa5hjjEwq69cWEyvBTIN8a7EDEPd9eZ6jxPKXae9hoCW7AQAvD_BwE" target="_blank"
+                ><img src="imagenes/640px-Isologotipo_PedidosYa.jpg" alt=""></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div>         
+            <a id="linkFacebook" href="https://www.facebook.com/" target="_blank"><img class="footerImagen"src="Imagenes/alex-haney-AGqzy-Uj3s4-unsplash.jpg" alt="Facebook"></a>
+            <a id="linkFacebook" href="https://www.instagram.com/" target="_blank"><img class="footerImagen" src="Imagenes/947fd-logo-instagram-bonito-png.webp" alt="Instagram"> </a>
+            <kbd>®Los Hermanos S.A. | Designer: LuchitoX</kbd>
+        </div>
+    </footer>
+
+</body>
+</html>

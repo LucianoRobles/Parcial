@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="formatoDocumento">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Autor" content="Luciano Robles">
+        <meta name="Menu Principal" content="Este documento contiene el menu principal de la WebApp para el restaurante " >
+        <link rel="stylesheet" href="styleParcial.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="parcial.js"></script> 
+        <title>Formulario Reserva</title>  
+    </head>
+    <body id="bodyForm" class="formBody">
+        <header>
+            <div class="row botonHoverBlack">
+                <div class="col-sm-3 headerBotones">
+                    <label> Modo de vista: <br>
+                    Claro <input  onclick="changeViewWhite('bodyForm')" type="radio" name= "tema" value="claro">                
+                    Oscuro <input onclick="changeViewDark('bodyForm')" type="radio" name= "tema" value="oscuro" >
+                    </label>  
+                </div>
+                <div class="col-sm-3 headerBotones">
+                        <button class="btn btn-info"  onclick="irA('index.html')">Home 🏡
+                        </button>               
+                </div>
+                <div class="col-sm-3 headerBotones">
+                        <button class="btn btn-info"  onclick="irA('menu.html')">Menu Principal 📖
+                        </button>
+                </div>
+                <div class="col-sm-3 headerBotones">
+                        <button class="btn btn-info" onclick="irA('contacto.html')">Mas Informacion 📄
+                        </button>
+                </div>            
+            </div>
+        </header>
+        <h1><strong> "Los Hermanos"</strong> </h1>
+        <h3><span class="text-success"> Aqui podras hacer tu reserva</span>, por favor completa todos los campos antes de enviar. </h3>
+        <h2><strong><em class="text-success">Recibiras un mail con la confirmacion del mismo. 🖖</em></strong></h2>
+            <hr>
+        <form class= "formLetras" action="https://formspree.io/soylucho@hotmail.es" method="post">
+            <label for="nombreReserva"> Nombre y Apellido: 
+                <input id="nombreReserva" type = "text" name="nombreReserva" placeholder= "Nombre y Apellido?" class="text-success" required >
+            </label>
+                <br>
+            <label for="cantReserva"> Cantidad de personas en la mesa: 
+            <input id="cantReserva" type = "number" name="cantReserva"  placeholder= "Mesa para cuantos?" class="text-success" required >
+            </label>
+                <br>    
+            <label for="menReserva"> Viene con menores: 
+                <input id="menReserva" type = "checkbox" name="menReserva" class="text-success" placeholder= "Menores si o no?" required >
+            </label>               
+                <br>
+            <label for="emailReserva"> Dejanos tu email: 
+                <input id="emailReserva" type="email" name= "emailReserva" class="text-success" placeholder= "No olvides tu contacto 😁" required>
+            </label>
+                <br>
+            <label for="horarioReserva"> Selecciona un horario de llegada:
+                <select id ="horarioReserva" name="horarioReserva" class="text-success" required>
+                    <option value=""> Elegi un horario </option> 
+                    <option value="primerHorario"> 09:00 a.m. a 01:00 p.m </option>
+                    <option value="segundoHorario"> 01:00 p.m. a 17:00 p.m </option>
+                    <option value="tercerHorario"> 17:00 a.m. a 19:00 p.m </option>
+                    <option value="tercerHorario"> 19:00 a.m. a 23:00 p.m </option>                    
+                </select>
+            </label>
+                <br>
+            <label for="horarioReserva"> Dejanos un comentario si asi lo queres: <br>
+                <textarea name="comentario" value= "coment"cols="30" rows="10" class="text-success" required></textarea>
+            </label>
+                <br>
+            <label class="text-success"> Acepta la bases y condiciones.
+                <input type="checkbox" name= "optIn" value = "acepta" required >
+            </label>
+                <hr>
+            <div class="text-center">
+            <label for="enviarFormulario" class="text-success"> <small>No te olvides de </small>➡
+                <input  id="enviarFormulario" type="submit" placeholder="ENTRAR" >
+                ⬅
+            </label>
+            </div>
+            <footer class="footerForm">
+                <div>         
+                    <a id="linkFacebook" href="https://www.facebook.com/" target="_blank"><img class="footerImagen"src="Imagenes/alex-haney-AGqzy-Uj3s4-unsplash.jpg" alt="Facebook"></a>
+                    <a id= "linkFacebook" href="https://www.instagram.com/" target="_blank"><img class="footerImagen" src="Imagenes/947fd-logo-instagram-bonito-png.webp" alt="Instagram"> </a>
+                    <kbd>®Los Hermanos S.A. | Designer: LuchitoX</kbd>
+                </div>
+            </footer> 
+        </form>          
+    </body>
+</html>

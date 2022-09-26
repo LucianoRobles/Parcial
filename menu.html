@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Autor" content="Luciano Robles">
+    <meta name="Menu Principal" content="Este documento contiene el menu principal de la WebApp para el restaurante " >
+    <link rel="stylesheet" href="styleParcial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="parcial.js"></script>
+    <title>Menu Principal</title>
+</head>
+<body id = "bodyMenu" class="indexBody">
+    <header>
+        <div class="row botonHover">
+            <div class="col-sm-3 headerBotones">
+                <label> Modo de vista: <br>
+                Claro <input onclick="changeViewWhite('bodyMenu')" type="radio" name= "tema" value="claro">                
+                Oscuro <input onclick="changeViewDark('bodyMenu')" type="radio" name= "tema" value="oscuro" >
+                </label>  
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <button class="btn btn-default" onclick="irA('index.html')">Home 🏠
+                </button>                 
+            </div>
+            <div class="col-sm-3 headerBotones">
+                <button class="btn btn-default" onclick="irA('contacto.html')">Mas información 📱
+                </button>            
+            </div>
+            <div class="col-sm-3 headerBotones" >
+                    <button class="btn btn-default" onclick="irA('formulario_reserva.html')">Hacer Reserva 📄
+                    </button>
+            </div>            
+        </div>
+    </header>
+
+    <div>
+        <h1><small>restaurante</small> "Los Hermanos"</h1> 
+        <h2>¿Que menú te gustaria ver?</h2>
+        <div class="text-center botonHover">
+            <div class="espacioBotones ">
+            <a href="detalle.html#seccion_comida"><button type="button" class="btn btn-default">Carta de Comidas 👨‍🍳</button></a>
+            </div>
+            <div class="espacioBotones">                
+                <a href="detalle.html#seccion_bebida"> <button type="button" class="btn btn-default">Carta de Bebidas 🍻</button> </a>
+            </div>
+            <div class="espacioBotones">
+                <a href="detalle.html#seccion_postres"><button type="button" class="btn btn-default">Carta de Postres 🍮</button> </a>
+            </div>
+            <div class="espacioBotones">
+                <a href="contacto.html"><button type="button" class="btn btn-default">Información de Contacto 📞</button></a>
+            </div>
+            <div class="espacioBotones">
+                <a href="formulario_reserva.html" target="_blank"><button type="button" class="btn btn-info">Solicitar Reserva 🗒</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div>         
+            <a id="linkFacebook" href="https://www.facebook.com/" target="_blank"><img class="footerImagen"src="Imagenes/alex-haney-AGqzy-Uj3s4-unsplash.jpg" alt="Facebook"></a>
+            <a id= "linkFacebook" href="https://www.instagram.com/" target="_blank"><img class="footerImagen" src="Imagenes/947fd-logo-instagram-bonito-png.webp" alt="Instagram"> </a>
+            <kbd>®Los Hermanos S.A. | Designer: LuchitoX</kbd>
+        </div>
+    </footer>
+
+</body>
+</html>
