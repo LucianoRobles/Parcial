@@ -13,6 +13,7 @@ Se adjuntará una carpeta con las imágenes utilizadas para el proyecto en el re
 estos los archivos necesarios para la visualización de la WebApp.
 
 *INTRODUCCIÓN AL PROYECTO*
+
 HTML: 
 Se puede observar en la etiqueta <head> de cada  archivo metadata como el título del archivo, autor,etc. Dentro 
 de él la etiqueta <link> usada para referenciar “hojas de estilo” / archivo Css, una colección de Css externa (“bootstrap”) 
